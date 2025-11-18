@@ -37,6 +37,16 @@ export default function Home() {
             />
           </span>
 
+        <div className="flex justify-center pt-4">
+          <a href="/experiments">
+            &rarr; Experiments
+          </a>
+          <a href="/lifeforms">
+            &rarr; Lifeforms
+          </a>
+
+        </div>
+
         </div>
       </div>
     </div>
