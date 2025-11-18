@@ -8,7 +8,7 @@ export default function Home() {
       <div className="relative z-10 flex min-h-screen items-center justify-center p-8">
         <div className="relative w-full max-w-4xl space-y-8">
         <Image
-            src="/brain2.png"
+            src="/brain.png"
             alt="Brain illustration"
             width={1200}
             height={1600}
