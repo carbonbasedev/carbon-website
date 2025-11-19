@@ -6,7 +6,7 @@ export default function Lifeforms() {
       
       {/* Centered writing image */}
       <div className="relative z-10 flex min-h-screen items-center justify-center p-8">
-        <div className="relative w-full max-w-4xl space-y-8">
+        <div className="relative w-full max-w-4xl space-y-0">
         <Image
             src="/alien.png"
             alt="Brain illustration"
@@ -16,17 +16,25 @@ export default function Lifeforms() {
             quality={95}
           />
 
-          <span className="inline-block">
-            <Image
-              src="/lifeforms.png"
-              alt="Handwritten text"
-              width={1200}
-              height={1600}
-              className="mx-auto w-full h-auto object-contain"
-              priority
-              quality={95}
-            />
-          </span>
+        <Image
+          src="/lifeforms.png"
+          alt="Handwritten text"
+          width={1200}
+          height={1600}
+          className="mx-auto w-full h-auto object-contain"
+          priority
+          quality={95}
+        />
+
+        <Image
+          src="/names.png"
+          alt="Handwritten text"
+          width={500}
+          height={100}
+          className="mx-auto w-200 h-20 object-contain"
+          priority
+          quality={95}
+        />
 
         </div>
       </div>
