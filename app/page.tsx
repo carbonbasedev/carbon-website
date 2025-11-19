@@ -6,7 +6,7 @@ export default function Home() {
       
       {/* Centered writing image */}
       <div className="relative z-10 flex min-h-screen items-center justify-center p-8">
-        <div className="relative w-full max-w-4xl space-y-8">
+        <div className="relative w-full max-w-4xl space-y-0">
         <Image
             src="/brain.png"
             alt="Brain illustration"
@@ -16,36 +16,47 @@ export default function Home() {
             quality={95}
           />
 
-          <span className="inline-block">
-            <Image
-              src="/writing.png"
-              alt="Handwritten text"
-              width={1200}
-              height={1600}
-              className="mx-auto w-full h-auto object-contain"
-              priority
-              quality={95}
-            />
-            <Image
-              src="/writing2.png"
-              alt="Handwritten text"
-              width={1200}
-              height={1600}
-              className="mx-auto w-full h-auto object-contain"
-              priority
-              quality={95}
-            />
-          </span>
+          <Image
+            src="/writing.png"
+            alt="Handwritten text"
+            width={1200}
+            height={1600}
+            className="mx-auto w-full h-auto object-contain"
+            priority
+            quality={95}
+          />
+          <Image
+            src="/writing2.png"
+            alt="Handwritten text"
+            width={1200}
+            height={1600}
+            className="mx-auto w-full h-auto object-contain"
+            priority
+            quality={95}
+          />
 
-        <div className="flex justify-center pt-4">
-          <a href="/experiments">
-            &rarr; Experiments
-          </a>
+        <div className="flex flex-row items-center justify-center gap-20 pt-2">
           <a href="/lifeforms">
-            &rarr; Lifeforms
+            <Image
+              src="/life_link.png"
+              alt="Lifeforms Link"
+              width={160}
+              height={160}
+              className="object-contain"
+            />
+          </a>
+          <a href="/experiments">
+            <Image
+              src="/exp_link.png"
+              alt="Experiments Link"
+              width={220}
+              height={200}
+              className="object-contain"
+            />
           </a>
 
         </div>
+        
 
         </div>
       </div>
