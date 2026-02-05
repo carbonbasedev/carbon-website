@@ -55,7 +55,7 @@ export default function BowSupport() {
         </ul>
 
         <h2 className="mb-3 mt-10 text-xl font-bold text-black">
-          Related
+          Related 
         </h2>
         <ul className="mb-6 list-disc pl-6 space-y-1 text-neutral-900">
           <li>
